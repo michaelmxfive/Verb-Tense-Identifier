@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>NLTK</title>
+
+</head>
+    <h1 class="text-center">Sentence Tense Identifier</h1>
+    <form method="post" action="">
+        Write the sentence here</br>
+        <input name="input" id="input" type="text" size="100" maxlength="100">
+        <input name="Button1" type="submit" value="Go">
+    </form>
+
+    <p>
+        Your sentence:<br>
+        <span style="background-color:white">{{form_input}}</span><br>
+        Tense of verb:<br>
+        <span style="background-color:greenyellow">VB{{pos_a}}</span><br>
+        <span style="background-color:red">VBD{{pos_b}}</span><br>
+        <span style="background-color:blue">VBG{{pos_c}}</span><br>
+        <span style="background-color:yellow">VBN{{pos_d}}</span><br>
+        <span style="background-color:blueviolet">VBP{{pos_e}}</span><br>
+        <span style="background-color:paleturquoise">VBZ{{pos_f}}</span><br>
+
+    </p>
+</body>
+</html>
+<span style="background-color:greenyellow">VB Verb, base form</span><br>
+<span style="background-color:red">VBD Verb, past tense</span><br>
+<span style="background-color:blue">VBG Verb, gerund or present participle</span><br>
+<span style="background-color:yellow">VBN Verb, past participle</span><br>
+<span style="background-color:blueviolet">VBP Verb, non-3rd person singular present</span><br>
+<span style="background-color:paleturquoise">VBZ Verb, 3rd person singular present</span><br>
