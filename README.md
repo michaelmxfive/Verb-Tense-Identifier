@@ -17,8 +17,8 @@ $ pip3 install Flask
 
 
 ```bash
-git clone https://github.com/hoge/~
-cd examples
+git clone https://github.com/michaelmxfive/Verb-Tense-Identifier.git
+cd myproject
 python demo.py
 ```
 
